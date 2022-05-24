@@ -1,0 +1,78 @@
+[**] [1:1418:11] SNMP request tcp [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+03/26-14:25:32.543427 172.20.5.1:12089 -> 172.20.5.2:161
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0xC8362B30  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://www.securityfocus.com/bid/4132][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088]
+
+[**] [1:1421:11] SNMP AgentX/tcp request [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+03/26-14:25:32.659794 172.20.5.1:62034 -> 172.20.5.2:705
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x330AEE7B  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://www.securityfocus.com/bid/4132][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088]
+
+[**] [1:249:8] DDOS mstream client to handler [**]
+[Classification: Attempted Denial of Service] [Priority: 2] 
+03/26-14:25:33.165215 172.20.5.1:48372 -> 172.20.5.2:15104
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x56A0524B  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2000-0138][Xref => http://www.whitehats.com/info/IDS111]
+
+[**] [1:1420:11] SNMP trap tcp [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+03/26-14:25:33.410765 172.20.5.1:9327 -> 172.20.5.2:162
+TCP TTL:64 TOS:0x0 ID:0 IpLen:20 DgmLen:48 DF
+******S* Seq: 0xDC7B33CC  Ack: 0x0  Win: 0x1000  TcpLen: 28
+TCP Options (4) => MSS: 1460 NOP NOP SackOK 
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://www.securityfocus.com/bid/4132][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/26-14:27:25.078677 0.0.0.0:40652 -> 255.255.255.255:20561
+UDP TTL:128 TOS:0x0 ID:3642 IpLen:20 DgmLen:50 DF
+Len: 22
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/26-14:27:27.082131 0.0.0.0:40652 -> 255.255.255.255:20561
+UDP TTL:128 TOS:0x0 ID:3642 IpLen:20 DgmLen:50 DF
+Len: 22
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:527:8] BAD-TRAFFIC same SRC/DST [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+03/26-14:27:29.083228 0.0.0.0:40652 -> 255.255.255.255:20561
+UDP TTL:128 TOS:0x0 ID:3642 IpLen:20 DgmLen:50 DF
+Len: 22
+[Xref => http://www.cert.org/advisories/CA-1997-28.html][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0016][Xref => http://www.securityfocus.com/bid/2666]
+
+[**] [1:524:8] BAD-TRAFFIC tcp port 0 traffic [**]
+[Classification: Misc activity] [Priority: 3] 
+03/26-14:27:50.943878 172.20.5.1:45437 -> 172.20.5.2:0
+TCP TTL:64 TOS:0x0 ID:51904 IpLen:20 DgmLen:40
+******S* Seq: 0x35968D70  Ack: 0x0  Win: 0x200  TcpLen: 20
+
+[**] [1:524:8] BAD-TRAFFIC tcp port 0 traffic [**]
+[Classification: Misc activity] [Priority: 3] 
+03/26-14:27:50.944228 172.20.5.2:0 -> 172.20.5.1:45437
+TCP TTL:128 TOS:0x0 ID:7617 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x0  Ack: 0x35968D71  Win: 0x0  TcpLen: 20
+
+[**] [1:1384:8] MISC UPnP malformed advertisement [**]
+[Classification: Misc Attack] [Priority: 2] 
+03/26-14:27:54.251712 172.20.5.1:50858 -> 172.20.5.2:1900
+UDP TTL:64 TOS:0x0 ID:31337 IpLen:20 DgmLen:281
+Len: 253
+[Xref => http://www.microsoft.com/technet/security/bulletin/MS01-059.mspx][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2001-0877][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2001-0876][Xref => http://www.securityfocus.com/bid/3723]
+
+[**] [1:524:8] BAD-TRAFFIC tcp port 0 traffic [**]
+[Classification: Misc activity] [Priority: 3] 
+03/26-14:29:49.225115 172.20.5.2:0 -> 172.20.5.1:50820
+TCP TTL:128 TOS:0x0 ID:8314 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x0  Ack: 0x3611FACD  Win: 0x0  TcpLen: 20
+
