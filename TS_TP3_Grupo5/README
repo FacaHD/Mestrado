@@ -1,4 +1,0 @@
-Para a execução correta do programa deve-se seguir os seguintes passos:
-python3 server.py
-python3 ficheiros.py "diretoria a ser copiada" "ponto de montagem"
-Consulte o ficheiro "metadados.txt" para saber quem é o dono do sistema ficheiros para obtenção do código otp
